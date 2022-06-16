@@ -7,6 +7,7 @@
     <title>Food.</title>
     <link rel="shortcut icon" href="assets/Food..svg">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -29,7 +30,7 @@
     <!-- ----------------MAIN------------------ -->
     <main class="conteudo">
         <section id="conteudo-inicio">
-            <div class="conteudo-inicio-texto">
+            <div class="conteudo-inicio-texto" data-aos="fade-right">
                 <h1 class="conteudo-inicio-texto-titulo">Texto principal</h1>
                 <h2 class="conteudo-inicio-texto-subtitulo">As melhores receitas em um só lugar!</h2>
                 <div class="conteudo-inicio-busca">
@@ -37,31 +38,31 @@
                     <button class="conteudo-inicio-busca-botao"><img  src="assets/search.svg" alt="Buscar..."/></button>
                 </div>
             </div>
-            <img class="conteudo-inicio-imagem" src="assets/Male Chef.svg" alt="chef">
+            <img class="conteudo-inicio-imagem" src="assets/Male Chef.svg" alt="chef" data-aos="fade-left">
         </section>
 
         <section id="conteudo-sobre">
-            <div class="conteudo-sobre-texto">
+            <div class="conteudo-sobre-texto" data-aos="fade-left">
                 <h1 class="conteudo-sobre-texto-titulo">Sobre nós</h1>
                 <h3 class="conteudo-sobre-texto-subtitulo">Somos uma empresa focada em blablabal</h3>
             </div>
-            <img class="conteudo-sobre-imagem" src="assets/Dining in a restuarant.svg" alt="chef">
+            <img class="conteudo-sobre-imagem" src="assets/Dining in a restuarant.svg" alt="chef" data-aos="fade-right">
         </section>
 
         <section id="conteudo-favoritos">
             <h1 class="conteudo-favoritos-texto">Receitas Populares</h1>
             <div class="conteudo-favoritos-card">
-                <div class="conteudo-favoritos-card-item" id="conteudo-favoritos-card-1">
+                <div class="conteudo-favoritos-card-item" id="conteudo-favoritos-card-1" data-aos="zoom-in">
                     <a href="">
                         <img src="assets/boloCenoura.jpeg" alt="">
                     </a>
                 </div>
-                <div class="conteudo-favoritos-card-item" id="conteudo-favoritos-card-2">
+                <div class="conteudo-favoritos-card-item" id="conteudo-favoritos-card-2" data-aos="zoom-in">
                     <a href="">
                         <img src="assets/bombomTravessa.jpeg" alt="">
                     </a>
                 </div>
-                <div class="conteudo-favoritos-card-item" id="conteudo-favoritos-card-3">
+                <div class="conteudo-favoritos-card-item" id="conteudo-favoritos-card-3" data-aos="zoom-in">
                     <a href="">
                         <img src="assets/pudim.jpeg" alt="">
                     </a>
@@ -164,13 +165,21 @@
             <div class="footer-container-item">
                 <h2>Siga-nos</h2>
                 <ul>
-                    <li><a href="#"><img src="assets/instagram.svg" alt="instagram"></a></li>
-                    <li><a href="#"><img src="assets/facebook.svg" alt="facebook"></a></li>
-                    <li><a href="#"><img src="assets/twitter.svg" alt="twitter"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/instagram.svg" alt="instagram"></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/facebook.svg" alt="facebook"></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><img src="assets/twitter.svg" alt="twitter"></a></li>
                 </ul>   
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1000
+        });
+    </script>
 
 </body>
 </html>
