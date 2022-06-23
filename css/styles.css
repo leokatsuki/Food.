@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 
 html{
@@ -11,9 +11,12 @@ html{
 }
 
 body{
-    background-color: #FFF5E7;
     font-family: 'Mukta', sans-serif;
+    
+}
 
+#bgc{
+    background-color: #FFF5E7;
 }
 
 h1, h2, h3, h4{
@@ -21,38 +24,28 @@ h1, h2, h3, h4{
 }
 
 /* -------------------HEADER------------------- */
-.menu{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px;
+#menu{
+    margin: 20px;
 }
 
 .menu-logo{
     cursor: pointer;
 }
 
-.menu-lista{
-    list-style-type: none;
-    display: inline-block;
-    padding: 15px;
-}
-
-.menu-link{
-    text-decoration: none;
-    color: black;
-    padding: 7px;
-}
-
 #menu-link{
     text-decoration: none;
     color: black;
     padding: 7px;
-    
+    font-size: 18px;
 }
 
-.menu-link:hover{
+#menu-link-botao{
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+}
+
+#menu-link:hover{
     color: #FF6A6A;
     transition: 0.3s ease;
 }
@@ -61,7 +54,6 @@ h1, h2, h3, h4{
     border: none;
     background-color: transparent;
     cursor: pointer;
-    font-weight: bold;
 }
 
 .menu-button-signin:hover{
@@ -74,7 +66,6 @@ h1, h2, h3, h4{
     cursor: pointer;
     background-color: rgba(255, 106, 106, 1);
     border: none;
-    font-weight: bold;
     margin: 0px 10px;
 }
 
