@@ -1,10 +1,6 @@
 .inicio{
-    max-width: 1440px;
-    margin: 0 auto;
+    @extend .pagina-formatada;
 
-    padding: 36px 16px;
-
-    overflow: hidden;
     height: 85vh;
 
     display: flex;
@@ -39,20 +35,20 @@
         padding: 12px 32px;
         width: 100%;
         height: 50px;
-        border: 2px solid #f73f3f;
+        border: 2px solid map-get($colors, "red" );
         border-right: none;
     }
 
     input:focus{
-        box-shadow: 0 0 5px #f73f3f;
+        box-shadow: 0 0 5px map-get($colors, "red" );
     }
 
     button{
     padding: 5px;
     width: 40px;
     height: 50px;
-    background: white;
-    border: 2px solid #f73f3f;
+    background: map-get($colors, "white" );
+    border: 2px solid map-get($colors, "red" );
     border-left: none;
     cursor: pointer;
     transform: skewX(-10deg);

@@ -1,8 +1,5 @@
 .receitas{
-    max-width: 1440px;
-    margin: 0 auto;
-
-    padding: 36px 16px;
+    @extend .pagina-formatada;
 
     display: flex;
     flex-direction: column;
@@ -34,7 +31,7 @@
 }
 
 .receitas-item-2-cards-card{
-    background-color: white;
+    background-color: map-get($colors, "white" );
     border: 1px solid #bacdd8;
     padding: 8px;
     border-radius: 12px;
@@ -69,14 +66,14 @@
         margin-top: 10px;
 
         cursor: pointer;
-        color: #ff0000;
+        color: map-get($colors, "red" );
         background-color: #ffe0e0;
 
         transition: .3s ease;
     }
 
     button:hover {
-        background-color: #ff0000;
+        background-color: map-get($colors, "red" );
         color: #ffe0e0;
     }
   }

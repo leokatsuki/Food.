@@ -1,8 +1,5 @@
 .sobre{
-    max-width: 1440px;
-    margin: 0 auto;
-
-    padding: 36px 16px;
+    @extend .pagina-formatada;
 
     overflow: hidden;
     height: 100vh;

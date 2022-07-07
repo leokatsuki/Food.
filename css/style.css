@@ -6,6 +6,12 @@
   font-family: 'Mukta', sans-serif;
 }
 
+.pagina-formatada, .inicio, .sobre, .favoritos, .receitas, .contatos, .informacoes {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 36px 16px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -491,10 +497,6 @@ header {
 }
 
 .inicio {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 36px 16px;
-  overflow: hidden;
   height: 85vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -584,9 +586,6 @@ header {
 }
 
 .sobre {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 36px 16px;
   overflow: hidden;
   height: 100vh;
   display: -webkit-box;
@@ -643,9 +642,6 @@ header {
 }
 
 .favoritos {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 36px 16px;
   overflow: hidden;
   height: 100vh;
   display: -webkit-box;
@@ -692,7 +688,7 @@ header {
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  border: 6px solid #ff0000;
+  border: 6px solid #f73f3f;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
@@ -703,9 +699,6 @@ header {
 }
 
 .receitas {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 36px 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -787,14 +780,14 @@ header {
   margin: 0 auto;
   margin-top: 10px;
   cursor: pointer;
-  color: #ff0000;
+  color: #f73f3f;
   background-color: #ffe0e0;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
 
 .receitas-item-2-cards-card button:hover {
-  background-color: #ff0000;
+  background-color: #f73f3f;
   color: #ffe0e0;
 }
 
@@ -807,9 +800,6 @@ header {
 }
 
 .contatos {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 36px 16px;
   overflow: hidden;
   height: 100vh;
   display: -webkit-box;
@@ -872,7 +862,7 @@ header {
   height: 40px;
   border-radius: 15px;
   padding: 15px;
-  border: 1px solid #ff6161;
+  border: 1px solid #f73f3f;
 }
 
 .contatos-form .textarea {
@@ -886,7 +876,7 @@ header {
   margin-top: 15px;
   width: 90px;
   padding: 10px;
-  background-color: #ff6161;
+  background-color: #f73f3f;
   border: none;
   cursor: pointer;
 }
@@ -961,7 +951,7 @@ header {
 }
 
 .footer-container-item a:hover {
-  color: #FF6A6A;
+  color: #f73f3f;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -985,8 +975,6 @@ header {
 }
 
 .informacoes {
-  max-width: 1440px;
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1085,7 +1073,7 @@ header {
 }
 
 .instrucoes-preparo-passos {
-  color: #ff6161;
+  color: #f73f3f;
   margin-bottom: 10px;
   font-size: 20px;
 }

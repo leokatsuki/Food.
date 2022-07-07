@@ -17,6 +17,15 @@
     }
 }
 
+.pagina-formatada{
+    max-width: 1440px;
+    margin: 0 auto;
+
+    padding: 36px 16px;
+}
+
+$colors: ("red": #f73f3f, "bg": #f5e5d9, "white": white, "black": black);
+
 html{
     scroll-behavior: smooth;
 }
@@ -24,7 +33,7 @@ html{
 body{
     width: 100%;
     height: 100vh;
-    background-color: #f5e5d9;
+    background-color: map-get($colors, "bg");
 }
 
 img, svg{

@@ -1,6 +1,5 @@
 .informacoes{
-    max-width: 1440px;
-    margin: 0 auto;
+    @extend .pagina-formatada;
 
     display: flex;
     justify-content: space-evenly;
@@ -61,7 +60,7 @@
 }
 
 .instrucoes-preparo-passos{
-    color: #ff6161;
+    color: map-get($colors, "red" );
     margin-bottom: 10px;
     font-size: 20px;
 }

@@ -1,8 +1,5 @@
 .contatos{
-    max-width: 1440px;
-    margin: 0 auto;
-
-    padding: 36px 16px;
+    @extend .pagina-formatada;
 
     overflow: hidden;
     height: 100vh;
@@ -42,7 +39,7 @@
         height: 40px;
         border-radius: 15px;
         padding: 15px;
-        border: 1px solid #ff6161;
+        border: 1px solid map-get($colors, "red" );
     }
     
     .textarea{
@@ -56,7 +53,7 @@
         margin-top: 15px;
         width: 90px;
         padding: 10px;
-        background-color: #ff6161;
+        background-color: map-get($colors, "red" );
         border: none;
         cursor: pointer;
     }

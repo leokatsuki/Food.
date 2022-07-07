@@ -1,6 +1,6 @@
 .footer{
     padding: 70px 0px;
-    border-top: 1px solid black;
+    border-top: 1px solid map-get($colors, "black" );
     margin-top: 100px;
 }
 
@@ -40,7 +40,7 @@
     }
 
     a:hover{
-        color: #FF6A6A;
+        color: map-get($colors, "red" );
         transition: 0.3s;
     }
 

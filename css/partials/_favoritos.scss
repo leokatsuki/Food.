@@ -1,8 +1,5 @@
 .favoritos{
-    max-width: 1440px;
-    margin: 0 auto;
-
-    padding: 36px 16px;
+    @extend .pagina-formatada;
 
     overflow: hidden;
     height: 100vh;
@@ -38,7 +35,7 @@
         width: 200px;
         height: 200px;
         border-radius: 100%;
-        border: 6px solid #ff0000;
+        border: 6px solid map-get($colors, "red" );
 
         transition: .3s ease;
     }
