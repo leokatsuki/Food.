@@ -983,4 +983,128 @@ header {
     margin-bottom: 10px;
   }
 }
+
+.informacoes {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+.informacoes-parte2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+}
+
+.informacoes-parte2-texto {
+  font-size: 30px;
+}
+
+.informacoes-parte2-icones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+
+.informacoes-parte2-icones-1, .informacoes-parte2-icones-2, .informacoes-parte2-icones-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.informacoes-parte2-icones-1 img, .informacoes-parte2-icones-2 img, .informacoes-parte2-icones-3 img {
+  width: 28px;
+  height: 28px;
+}
+
+.instrucoes {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 70px;
+}
+
+.instrucoes-preparo {
+  width: 900px;
+}
+
+.instrucoes-preparo-titulo {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.instrucoes-preparo-passos {
+  color: #ff6161;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.instrucoes-preparo-paragrafo {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.instrucoes-ingredientes {
+  width: 300px;
+}
+
+.instrucoes-ingredientes-titulo {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.instrucoes-ingredientes li {
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
