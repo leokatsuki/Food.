@@ -686,7 +686,7 @@ header {
 
 .favoritos-item-2-card {
   position: relative;
-  width: 350px;
+  width: 300px;
   height: 200px;
   background: white;
   border-radius: 20px;
@@ -695,7 +695,7 @@ header {
 }
 
 .favoritos-item-2-card:hover {
-  height: 450px;
+  height: 350px;
 }
 
 .favoritos-item-2-card:hover .favoritos-item-2-img {
@@ -726,6 +726,62 @@ header {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.favoritos-item-2-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  overflow: hidden;
+}
+
+.favoritos-item-2-content .favoritos-details {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 60px;
+  text-align: center;
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+}
+
+.favoritos-item-2-content .favoritos-details h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2em;
+}
+
+.favoritos-item-2-content .favoritos-details .favoritos-btn button {
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #f73f3f;
+  background-color: #ffe0e0;
+  cursor: pointer;
+}
+
+.favoritos-item-2-card:hover .favoritos-item-2-content .favoritos-details {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .receitas {
