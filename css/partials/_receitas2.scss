@@ -5,6 +5,11 @@
     justify-content: space-evenly;
     align-items: center;
     margin-top: 100px;
+
+    @include responsive(){
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
 }
 
 .informacoes-parte2{
@@ -13,6 +18,10 @@
     justify-content: space-around;
     align-items: center;
     gap: 60px;
+
+    @include responsive(){
+        gap: 10px;
+    }
 }
 
 .informacoes-parte2-texto{
@@ -48,10 +57,22 @@
     justify-content: space-around;
     align-items: flex-start;
     margin-top: 70px;
+
+    @include responsive(){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
 }
 
 .instrucoes-preparo{
     width: 900px;
+
+    @include responsive(){
+        width: auto;
+        margin: 0 20px;
+    }
 }
 
 .instrucoes-preparo-titulo{
