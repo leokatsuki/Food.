@@ -698,9 +698,29 @@ header {
   height: 350px;
 }
 
+@media screen and (max-width: 960px) {
+  .favoritos-item-2-card:hover {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .favoritos-item-2-card {
+    width: 400px;
+    height: 200px;
+  }
+}
+
 .favoritos-item-2-card:hover .favoritos-item-2-img {
   width: 200px;
   height: 200px;
+}
+
+@media screen and (max-width: 960px) {
+  .favoritos-item-2-card:hover .favoritos-item-2-img {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .favoritos-item-2-img {
@@ -716,6 +736,13 @@ header {
   overflow: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 960px) {
+  .favoritos-item-2-img {
+    top: 25px;
+    left: 0px;
+  }
 }
 
 .favoritos-item-2-img img {
@@ -777,6 +804,14 @@ header {
   color: #f73f3f;
   background-color: #ffe0e0;
   cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .favoritos-item-2-content .favoritos-details {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    gap: 30px;
+  }
 }
 
 .favoritos-item-2-card:hover .favoritos-item-2-content .favoritos-details {

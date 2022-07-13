@@ -40,12 +40,27 @@
 
     &:hover{
         height: 350px;
+
+        @include responsive(){
+            height: 200px;
+        }
+    }
+
+    @include responsive(){
+        width: 400px;
+        height: 200px;
+        
     }
 }
 
 .favoritos-item-2-card:hover .favoritos-item-2-img{
     width: 200px;
     height: 200px;
+
+    @include responsive(){
+        width: 150px;
+        height: 150px;
+    }
 }
 
 .favoritos-item-2-img{
@@ -59,6 +74,11 @@
     background: #000;
     overflow: hidden;
     transition: 0.5s;
+
+    @include responsive(){
+        top: 25px;
+        left: 0px;
+    }
 
     img{
         position: absolute;
@@ -106,7 +126,12 @@
                 background-color: #ffe0e0;
                 cursor: pointer;
             }
-         }
+        }
+
+        @include responsive(){
+            transform: translateY(0px);
+            gap: 30px;
+        }
     }    
 }
 
